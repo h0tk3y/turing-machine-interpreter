@@ -5,9 +5,9 @@ If you just want to run the program and play around, open the project in Intelli
 
 How to run
 ----
-a program expects two files in its working directory:
+The program expects two files in its working directory:
 
-*machine.in*
+**machine.in**
 
 Contains a Turing machine description in the following format
 
@@ -30,7 +30,7 @@ Example:
     n 0 -> s _ >
     n _ -> rj _ >
     
-*tape.in*
+**tape.in**
 
 Contains the initial state of the tape, words separated with whitespaces.
 
